@@ -15,9 +15,12 @@ namespace BinarySearchTree
             bst.Insert(60);
             bst.Insert(95);
             bst.Insert(11);
-            bst.Insert(65);
+            bst.Insert(63);
+            bst.Insert(66);
             bst.Display();
             bst.GetSize();
+            bool result = bst.IfExists(63, bst);
+            Console.WriteLine(result);
         }
     }
 }
